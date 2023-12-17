@@ -30,12 +30,12 @@ tsc --init
 
 In the tsconfig.json file. change target
 
-```json
+```typescript
 "strict": true
 // configurations
-"target": "ES2016	// Specifiying the version of javascript to generate.
+"target": "ES2016",	// Specifiying the version of javascript to generate.
 // configurations
-"rootDir": "./src"	// Set root directory to src folder
+"rootDir": "./src",	// Set root directory to src folder
 // configurations
 "outDir": "./dist",	// Set javascript files to be compiled to dist folder
 "removeComments": true, // Don't copy the typescript comments to javascript
@@ -140,7 +140,7 @@ function calculateTax(income: number, taxYear = 2022): number {		// Return type 
 
 Some configs to inable in the config file for better function writing
 
-```json
+```typescript
 //configs
 "noUnusedLocals": true,
 "noUnusedParameters": true,
